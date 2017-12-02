@@ -15,7 +15,7 @@ public class EquilateralTriangularPrism extends Shapes2D.EquilateralTriangle
     }
 
     public double getNHeight(){
-        return 0;
+        return normalHeight;
     }
 
     @Override
