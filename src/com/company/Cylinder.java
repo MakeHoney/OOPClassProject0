@@ -1,7 +1,7 @@
 package com.company;
 import java.lang.Math.*;
 
-public class Cylinder extends Shapes2D.Circle
+class Cylinder extends Shapes2D.Circle
         implements Shapes3DPrism {
     private double x1, y1, x2, y2;
     private double normalHeight;

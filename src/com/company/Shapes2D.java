@@ -18,10 +18,10 @@ interface Shapes2D {
             this.y2 = y2;
         }
 
-        public double getDistance(double x1, double y1, double x2, double y2){    // r
+        public double getDistance(double x1, double y1, double x2, double y2){
             return Math.round(Math.sqrt(Math.pow(x1 - x2, 2.0) + Math.pow(y1 - y2, 2.0)) * 1000.0) / 1000.0;
         }
-        public double getArea(){        // 원의 넓이
+        public double getArea(){
             return Math.round(Math.PI * Math.pow(getDistance(x1, y1, x2, y2), 2) * 1000.0) / 1000.0;
         }
 
@@ -97,7 +97,7 @@ interface Shapes2D {
             return "Upper left vertex: UL(" + x1 + ", " + y1 + ")\n"
                     + "Lower right vertex: LR(" + x2 + ", " + y2 + ")\n"
                     + "length / width = " + getDistance(x2, y2, x1, y2) +
-                    " / " + getDistance(x1, y1, x1, y2) + "\n" // ??????
+                    " / " + getDistance(x1, y1, x1, y2) + "\n"
                     + "SquareBaseArea = " + getArea() + "\n";
         }
 

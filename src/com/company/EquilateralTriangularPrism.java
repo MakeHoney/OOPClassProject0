@@ -1,7 +1,7 @@
 package com.company;
 import java.lang.Math.*;
 
-public class EquilateralTriangularPrism extends Shapes2D.EquilateralTriangle
+class EquilateralTriangularPrism extends Shapes2D.EquilateralTriangle
         implements Shapes3DPrism {
     private double x1, y1, x2, y2, x3, y3;
     private double normalHeight;

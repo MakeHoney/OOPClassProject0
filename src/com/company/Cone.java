@@ -1,7 +1,7 @@
 package com.company;
 import java.lang.Math.*;
 
-public class Cone extends Shapes2D.Circle
+class Cone extends Shapes2D.Circle
         implements Shapes3DPyramid, Shapes3DPrism {
     private double x1, y1, x2, y2;
     private double normalHeight;
